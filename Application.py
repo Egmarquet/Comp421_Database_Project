@@ -373,7 +373,7 @@ if __name__ == '__main__':
 	#
 	
 	try:
-		db_conn = psycopg2.connect("dbname='Project' user='postgres' host='localhost' password='Atn202960985'")
+		db_conn = psycopg2.connect("dbname='' user='' host='' password=''")
 		print 'Successful connection to database'
 	except psycopg2.Error as e:
 		print 'Unable to connect to database'
